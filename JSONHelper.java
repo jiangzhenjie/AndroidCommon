@@ -1,16 +1,6 @@
-package com.myxiaoapp.utils;
-
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import android.util.Log;
-
 /**
- * @author JiangZhenJie
+ * JSON解析工具类
+ * 利用反射机制对JOSN字符串进行解析
  * 
  */
 public class JSONHelper {
