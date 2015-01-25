@@ -1,6 +1,18 @@
 # Android Utils #
 
 ------------------------------------
+## Android sp与px单位相互转换（2015-1-25） ##
+
+	 public int px2sp(Context context, float pxValue) {
+        final float fontScale = context.getResources().getDisplayMetrics().scaledDensity;
+        return (int) (pxValue / fontScale + 0.5f);
+    }
+
+    public static int sp2px(Context context, float spValue) {
+        final float fontScale = context.getResources().getDisplayMetrics().scaledDensity;
+        return (int) (spValue * fontScale + 0.5f);
+    }
+
 ## Android评价打分功能的实现（2014-12-23） ##
 	/**
     * @Description 跳转到本机安装的应用市场中进行评价和打分
