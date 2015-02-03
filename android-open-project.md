@@ -11,3 +11,5 @@
 4. 延时加载 [Endless](https://github.com/commonsguy/cwac-endless)
 
 5. IOS风格Progress [ProgressHUD](https://github.com/anupamdhanuka/AndroidProgressHUD)
+
+6. [afinal](https://github.com/yangfuhai/afinal)
